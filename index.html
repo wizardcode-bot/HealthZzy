@@ -1,0 +1,123 @@
+<!--Baby, sin ti no es lo mismo
+Ahora 'toy solito tomando sol en El Quisco
+Escuchando mi disco, yeah-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <title>Reloj del sueño</title>
+</head>
+<body>
+
+    <h1>¿A qué hora quiere levantarse?</h1>
+
+    <div class="cont-reloj">
+
+        <div class="botones-arriba">
+            <button class="boton-hora-arriba"><img src="wvector.png" id="rv1" width="16"></button>
+            <button class="boton-minuto-arriba"><img src="wvector.png" id="rv2" width="16"></button>
+            <button class="boton-am-pm-arriba"><img src="wvector.png" id="rv3" width="16"></button>
+        </div>
+
+        <div class="reloj">
+            <p id="horas" class="horas">01</p>
+            <p>:</p>
+            <p class="minutos">00</p>
+            <p class="am-pm">AM</p>
+        </div>
+        
+        <div class="botones-abajo">
+            <button class="boton-hora-abajo"><img src="wvector2.png" id="av1" width="16"></button>
+            <button class="boton-minuto-abajo"><img src="wvector2.png" id="av2" width="16"></button>
+            <button class="boton-am-pm-abajo"><img src="wvector2.png" id="av3" width="16"></button>
+        </div>
+
+    </div>
+
+    <div class="cont-peticion">
+        <button class="reset">Reset</button>
+        <button class="peticion">Go</button>
+        <button class="fondo">Fondo</button>
+    </div>
+    <div class="cont-help">
+        <button class="but-cont">
+            <p class="help">Ayuda</p>
+            <p class="help-p">Seleccione la hora en la cual se quiere levantar utilizando 
+                las flecha situadas debajo del reloj</p>
+        </button>
+    </div>
+
+    <div class="desc-p">
+        <h2>Horas en las que debe acostarse</h2>
+    </div>
+
+    <div class="cajas-recomendaciones">
+
+        <div class="cont-targ color1">
+            <div class="cont-nt">
+                <p class="n1-t cr-1">Sueño Profundo</p>
+                <p class="n2-t cc1">- - : - -</p>
+            </div>
+            <p class="desc-p-targ">El sueño profundo es la fase en la que se 
+                desaceleran las funciones del cuerpo y las ondas cerebrales, 
+                la fase en la que se produce la regeneración celular y la 
+                síntesis de proteínas, tan importante para hacer crecer los 
+                músculos.</p>
+        </div>
+        <div class="cont-targ color2">
+            <div class="cont-nt">
+                <p class="n1-t cr-1">Sueño Completo</p>
+                <p class="n2-t cc2">- - : - -</p>
+            </div>
+            <p class="desc-p-targ">Es el lapso de tiempo que normalmente 
+                debe dormir una persona adulta para descansar correctamente, 
+                en este momento es cuando soñamos, y si nos despiertan, 
+                los recordamos.</p>
+        </div>
+        <div class="cont-targ color3">
+            <div class="cont-nt">
+                <p class="n1-t cr-1">Sueño Medio</p>
+                <p class="n2-t cc3">- - : - -</p>
+            </div>
+            <p class="desc-p-targ">Es el sueño casi completo, es decir descansaste
+                un poco menos del promedio recomendado para una persona adulta promedio.
+            </p>
+        </div>
+        <div class="cont-targ color4">
+            <div class="cont-nt">
+                <p class="n1-t cr-1">Sueño Corto</p>
+                <p class="n2-t cc4">- - : - -</p>
+            </div>
+            <p class="desc-p-targ">Sueño que dura entre cuatro a seis horas pero 
+                que deja a las personas sintiéndose bien descansadas.</p>
+        </div>
+        <div class="cont-targ color5">
+            <div class="cont-nt">
+                <p class="n1-t cr-1">Sueño Relámpago</p>
+                <p class="n2-t cc5">- - : - -</p>
+            </div>
+            <p class="desc-p-targ">Son los sueño de más de dos horas
+                que normalmente ayuda para cansancios momentáneos o estrés
+                pero puede dejar a las personas con una sensación de cansancio.
+            </p>
+        </div>
+        <div class="cont-targ color6">
+            <div class="cont-nt">
+                <p class="n1-t cr-1">Siesta</p>
+                <p class="n2-t cc6">- - : - -</p>
+            </div>
+            <p class="desc-p-targ">Es lo llamado micro sueños, ya que no son
+                sueños como tal porque no se llega a esa etapa de "sueño" pero generan 
+                una sensanción de descanso en la persona.
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
